@@ -1,0 +1,14 @@
+
+:root{ --bg:#f7f7f7; --card:#fff; --accent:#0b5cff; --muted:#666; font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#111;padding:28px;}
+main{max-width:780px;margin:0 auto}
+header h1{margin:0 0 18px 0}
+.card{background:var(--card);padding:22px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+form{display:grid;gap:10px}
+input{padding:10px;border:1px solid #ddd;border-radius:6px}
+button{padding:10px 14px;border:0;background:var(--accent);color:white;border-radius:6px}
+.row{display:flex;gap:10px;align-items:center}
+.link{font-size:14px;color:var(--accent);text-decoration:none}
+.muted{color:var(--muted);font-size:14px;margin-top:8px}
+footer{margin-top:18px;color:#666}
